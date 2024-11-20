@@ -2,9 +2,9 @@ import { Navbar } from 'flowbite-react';
 
 export const Header = () => {
   return (
-    <Navbar fluid rounded className="bg-white max-w-6xl mx-auto px-5">
+    <Navbar fluid rounded className="bg-white max-w-6xl mx-auto px-8 py-4">
       <Navbar.Brand href="">
-        <p className="self-center whitespace-nowrap text-xl md:text-4xl text-primary italic font-semibold">
+        <p className="self-center whitespace-nowrap text-3xl md:text-4xl text-primary italic font-semibold">
           FrodenZ <span className="text-secondary">Labs</span>
         </p>
       </Navbar.Brand>
